@@ -10,6 +10,7 @@ const formData = {
 
 
 const inputEmail = document.querySelector('input[name="email"]');
+
 const messageText = document.querySelector('textarea[name="message"]');
 
 form.addEventListener('submit', handleFormSubmit);
