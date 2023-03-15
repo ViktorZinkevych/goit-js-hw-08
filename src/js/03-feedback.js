@@ -19,6 +19,7 @@ formData[e.target.name] = e.target.value;
 handleTextareaInput();
 }, 500));
 
+
 function handleTextareaInput() {
     const message = JSON.stringify(formData);
     localStorage.setItem(STORAGE_KEY, message);
@@ -29,6 +30,7 @@ function handleFormSubmit(evt){
     evt.currentTarget.reset();
     localStorage.removeItem(STORAGE_KEY);
 }
+
 
 populateTextarea()
 
